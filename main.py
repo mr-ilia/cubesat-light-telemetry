@@ -5,5 +5,4 @@ input.light_level()  # The first read wakes up the light sensor.
 
 while True:
     basic.pause(1000)
-    light = input.light_level()
-    bluetooth.uart_write_value(callsign, light)
+    bluetooth.uart_write_value(callsign, input.light_level())
