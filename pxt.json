@@ -1,0 +1,17 @@
+{
+    "name": "CubeSat Light Telemetry",
+    "version": "0.0.1",
+    "description": "Transmit a CubeSat callsign and light level over Bluetooth.",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.ts",
+        "main.py"
+    ],
+    "preferredEditor": "pyprj",
+    "supportedTargets": [
+        "microbit"
+    ]
+}
